@@ -1,2 +1,2 @@
-# TianyueAndyMao.github.io
+# TianyueAndyMao
 First Blog
