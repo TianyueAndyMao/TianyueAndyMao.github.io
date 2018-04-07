@@ -318,6 +318,6 @@ p.spacing{
   padding: 0px 0 30px 0;
 }
 
-ul{
-    margin:5px;
+ul {
+  padding-left: 1px;
 }
