@@ -140,7 +140,25 @@
                 </p>
             </div>
         </div>
-
+        
+        <hr>
+                
+        <div class="row project-row" name="amazon_correlation">
+            <div class="col-md-6">
+                <a href="#">
+                    <img class="img-responsive project-img" src="../images/amazon_time.PNG" alt="">
+                </a>
+            </div>
+           
+             <div class="col-md-6 project-item">
+                <h2><b>Movie Correlation Matrix</b></h2>
+                <br>
+                <p>Another useful purpose of the individual user reviews is the fact that we can use them as predictors for statistical modeling. I transformed all the words in the dataset into individual word vectors, displaying the count of each unique word for every single user. Ex: user 1 used the word “movie” 4 times, user 2 used the word “movie” 8 times, etc. Now, I have thousands of features to analyze. However, I wanted to consider the genres and how they can potentially relate to each other. I also included a few other key words of interest. At the end, I created a new pandas data frame with 40 word vectors, and some of the original variables as well. Then, I plotted a correlation matrix, to see how closely these variables relate to each other. I made sure to include the heat map feature, making it easier to detect abnormal trends. We can see right off the bat that ‘helpful1’ and ‘helpful2’ are at a 0.9 correlation with each other, which means they are very closely correlated. We also expect to see words such as “film” and “films” to exhibit a higher correlation, which was also affirmed with the visualization. This means that there are definitely some multicollinearity in the dataset that a statistician would have to consider before building a model. </p>
+                <p>
+                
+                </p>
+            </div>
+        </div>
 
     </div>
 
